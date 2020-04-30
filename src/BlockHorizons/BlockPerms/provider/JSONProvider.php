@@ -9,7 +9,7 @@ use BlockHorizons\BlockPerms\Loader;
 use BlockHorizons\BlockPerms\entity\BPGroup;
 use BlockHorizons\BlockPerms\entity\BPUser;
 
-class YAMLProvider extends BaseProvider {
+class JSONProvider extends BaseProvider {
 
     public function __construct(Loader $loader) {
         parent::__construct($loader);
